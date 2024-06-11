@@ -11,7 +11,7 @@ from datetime import datetime
 # Conexión a la base de datos
 conn = sqlite3.connect('Caras.db')
 cursor = conn.cursor()
-
+#Creado por CiberDosis. Derechos reservados.
 
 # Crear la tabla si no existe
 cursor.execute('''
